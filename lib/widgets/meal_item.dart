@@ -40,7 +40,15 @@ class MealItem extends StatelessWidget {
               width: double.infinity,
             ),
             Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
               child: Container(
+                color: Colors.black54,
+                padding: const EdgeInsets.symmetric(
+                  vertical: 6,
+                  horizontal: 44,
+                ),
                 child: Column(
                   children: [
                     Text(
@@ -75,15 +83,7 @@ class MealItem extends StatelessWidget {
                     ),
                   ],
                 ),
-                color: Colors.black54,
-                padding: const EdgeInsets.symmetric(
-                  vertical: 6,
-                  horizontal: 44,
-                ),
               ),
-              bottom: 0,
-              left: 0,
-              right: 0,
             ),
           ],
         ),
